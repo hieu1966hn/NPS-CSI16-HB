@@ -1,0 +1,26 @@
+.DS_Store
+
+# Virtual environments
+.venv/
+venv/
+env/
+.venv_py314_backup_20260322/
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and local environment files
+*.log
+.env
+.env.*
