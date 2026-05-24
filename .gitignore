@@ -24,3 +24,6 @@ dist/
 *.log
 .env
 .env.*
+
+
+SS5_CP
