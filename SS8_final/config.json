@@ -1,0 +1,8 @@
+{
+    "initial_bot_message": "Chào bạn, tôi là PhoBot. Tôi có thể giúp bạn tìm hiểu thông tin về nhà hàng.",
+    "restaurant_name": "Viet Cuisine",
+    "restaurant_address": "22 jump street",
+    "hotline": "318-234-567",
+    "functions": ["Giới thiệu nhà hàng", "giới thiệu menu", "giải đáp câu hỏi về món ăn"],
+    "out_of_scope_message": "Tôi đang không hỗ trợ chức năng này. Xin liên hệ qua hotline nhà hàng để được trợ giúp"
+}
