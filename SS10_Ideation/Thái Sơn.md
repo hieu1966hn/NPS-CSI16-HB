@@ -1,0 +1,7 @@
+Tên dự án: Hệ thống Phân tích Xu hướng và Dự đoán Đánh giá các Bộ Anime Truyền hình (TV Shows)
+Link Dataset (Kaggle): kaggle.com/datasets/forgetabhi/anime-tv-shows-dataset-2023 (Bộ dữ liệu trích xuất từ MyAnimeList chứa thông tin chi tiết của hàng ngàn bộ anime định dạng TV bao gồm số tập, điểm số, số lượng người xem và thời gian phát sóng).
+Vấn đề cần giải quyết: Giúp các hãng sản xuất và người hâm mộ đánh giá các yếu tố quyết định sự thành công của một bộ anime truyền hình (TV Series). Hệ thống sẽ phân tích mối tương quan giữa số lượng tập phim đến điểm đánh giá (Score), dự đoán xu hướng phổ biến theo từng năm, đồng thời tích hợp một Trợ lý ảo AI giúp người dùng tìm kiếm, tóm tắt nội dung và gợi ý các bộ anime truyền hình đáng xem nhất dựa trên sở thích cá nhân.
+Kiến thức áp dụng:
+CS Basic: Cấu trúc điều khiển, vòng lặp (duyệt qua danh sách phim), hàm, xử lý chuỗi (chuẩn hóa dữ liệu ngày tháng phát sóng và tên studio).
+CS Advanced: Lập trình hướng đối tượng (OOP) để xây dựng lớp quản lý các thuộc tính của một bộ phim (AnimeTV) và xử lý ngoại lệ khi xử lý các ô dữ liệu bị khuyết thiếu (NaN).
+CS Intensive: Pandas (tiền xử lý dữ liệu, lọc cột Type chỉ lấy định dạng TV), Scikit-learn (áp dụng thuật toán Linear Regression hoặc Decision Tree để dự đoán điểm số Score dựa trên số tập phim và mức độ phổ biến), Matplotlib/Seaborn (vẽ biểu đồ xu hướng điểm số phim qua các năm), Streamlit (thiết kế ứng dụng Web tìm kiếm và xếp hạng Anime trực quan), Generative AI (tích hợp API Gemini để làm chatbot tư vấn và tóm tắt nhanh nội dung phim cho khán giả).
