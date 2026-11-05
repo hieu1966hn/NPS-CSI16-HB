@@ -1,0 +1,6 @@
+pixel_cleaned
+weight
+max_video_fps
+battery_life
+sensor_size_encoded
+weight_per_mp

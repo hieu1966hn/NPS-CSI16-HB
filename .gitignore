@@ -1,13 +1,19 @@
+# System & OS
 .DS_Store
+**/.DS_Store
 
 # Virtual environments
 .venv/
 venv/
 env/
+**/.venv/
+**/venv/
+**/python/
 .venv_py314_backup_20260322/
 
 # Python cache and build artifacts
 __pycache__/
+**/__pycache__/
 *.py[cod]
 *.so
 *.egg-info/
@@ -19,14 +25,41 @@ dist/
 
 # Jupyter
 .ipynb_checkpoints/
+**/.ipynb_checkpoints/
 
-# Logs and local environment files
+# Logs and local environment / secrets
 *.log
 .env
 .env.*
+**/.env
+**/.env.*
+**/.streamlit/secrets.toml
 
-
+# Checkpoint archives & Temporary
 SS5_CP
 SS9_Checkpoint_II
+Chấm_BTVN/
+SS10_Ideation/Tien_Do_Du_An_Notion_Paste.txt
 
-.gitignore
+# External agent configs & Shortcuts
+**/.claude/
+*.lnk
+
+# Archive files
+*.zip
+*.rar
+*.7z
+
+# Model weights and large binaries (>10MB)
+*.keras
+*.h5
+*.pkl
+*.joblib
+
+# Large datasets (>10MB / >100MB exceed GitHub limits)
+ratings.csv
+steam_description_data.csv
+steam_media_data.csv
+steam_requirements_data.csv
+steamspy_tag_data.csv
+stock_market_dataset.csv
